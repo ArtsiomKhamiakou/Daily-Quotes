@@ -31,7 +31,7 @@ document.getElementById('favorite-btn').onclick = () => {
         const added = addToFavorites(currentQuote);
         if (added) {
             renderFavorites();
-            alert('⭐ Сохранено!');
+            showNotification('⭐ Сохранено!', 'success');
         } else {
             alert('Уже в избранном');
         }

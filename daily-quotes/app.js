@@ -1,5 +1,5 @@
 function renderFavorites() {
-    const container  = document.getElementById('favorites-list');
+    const container = document.getElementById('favorites-list');
     if (favorites.length === 0) {
         container.innerHTML = '<div style="color:white;text-align:center;">⭐ Нет сохранённых цитат</div>';
         return;

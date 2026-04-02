@@ -33,7 +33,6 @@ document.getElementById('favorite-btn').onclick = () => {
             renderFavorites();
             showNotification('⭐ Сохранено!', 'success');
         } else {
-            alert('Уже в избранном');
             showNotification('Уже в избранном', 'info');
         }
     }

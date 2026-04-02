@@ -42,3 +42,4 @@ loadFavorites();
 renderFavorites();
 const firstQuote = getRandomQuote();
 updateDisplay(firstQuote);
+document.getElementById('share-btn').onclick = shareQuote;

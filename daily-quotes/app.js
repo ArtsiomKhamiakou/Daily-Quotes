@@ -34,6 +34,7 @@ document.getElementById('favorite-btn').onclick = () => {
             showNotification('⭐ Сохранено!', 'success');
         } else {
             alert('Уже в избранном');
+             showNotification('Уже в избранном', 'info');
         }
     }
 };

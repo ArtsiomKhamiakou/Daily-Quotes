@@ -99,3 +99,6 @@ h2 {
     border-radius: 6px;
     cursor: pointer;
 }
+body.dark {
+    background: linear-gradient(135deg, #1f2937, #111827);
+}
